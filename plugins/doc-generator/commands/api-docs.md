@@ -1,5 +1,6 @@
 ---
 description: Generate API documentation for endpoints or functions
+argument-hint: [file-path or description]
 disable-model-invocation: true
 ---
 

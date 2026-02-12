@@ -1,5 +1,6 @@
 ---
 description: Create a well-named git branch from a description
+argument-hint: [description]
 disable-model-invocation: true
 ---
 

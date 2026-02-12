@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "A demo marketplace showcasing Claude Code plugin capabilities: skills, agents, hooks, and more.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
@@ -23,7 +23,7 @@
       "name": "git-toolkit",
       "source": "./plugins/git-toolkit",
       "description": "Git workflow automation with conventional commits, branch naming, and pre-commit hooks",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "workflow",
       "tags": ["git", "commits", "automation"],
       "keywords": ["git", "conventional-commits", "hooks"]
@@ -32,7 +32,7 @@
       "name": "doc-generator",
       "source": "./plugins/doc-generator",
       "description": "Documentation generation agents and skills for code explanation and API docs",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "documentation",
       "tags": ["docs", "documentation", "explanation"],
       "keywords": ["documentation", "jsdoc", "readme"]

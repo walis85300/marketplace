@@ -1,5 +1,6 @@
 ---
 description: Stage all changes and create a conventional commit
+argument-hint: [type or scope]
 disable-model-invocation: true
 ---
 
