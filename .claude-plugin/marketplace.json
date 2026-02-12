@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "A demo marketplace showcasing Claude Code plugin capabilities: skills, agents, hooks, and more.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
@@ -36,6 +36,26 @@
       "category": "documentation",
       "tags": ["docs", "documentation", "explanation"],
       "keywords": ["documentation", "jsdoc", "readme"]
+    },
+    {
+      "name": "compound-engineering",
+      "source": {
+        "source": "github",
+        "repo": "EveryInc/compound-engineering-plugin",
+        "path": "plugins/compound-engineering"
+      },
+      "description": "AI-powered development tools. 29 agents, 22 commands, 19 skills, 1 MCP server for code review, research, design, and workflow automation.",
+      "version": "2.33.0",
+      "author": {
+        "name": "Kieran Klaassen",
+        "email": "kieran@every.to"
+      },
+      "homepage": "https://every.to/source-code/my-ai-had-already-fixed-the-code-before-i-saw-it",
+      "repository": "https://github.com/EveryInc/compound-engineering-plugin",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["ai-powered", "compound-engineering", "workflow-automation"],
+      "keywords": ["compound-engineering", "code-review", "workflow-automation", "browser-automation"]
     }
   ]
 }
