@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "code-review",
-      "source": "code-review",
+      "source": "./plugins/code-review",
       "description": "Code review skills and agents for catching bugs, security issues, and style problems",
       "version": "1.0.0",
       "category": "code-quality",
@@ -21,7 +21,7 @@
     },
     {
       "name": "git-toolkit",
-      "source": "git-toolkit",
+      "source": "./plugins/git-toolkit",
       "description": "Git workflow automation with conventional commits, branch naming, and pre-commit hooks",
       "version": "1.0.0",
       "category": "workflow",
@@ -30,7 +30,7 @@
     },
     {
       "name": "doc-generator",
-      "source": "doc-generator",
+      "source": "./plugins/doc-generator",
       "description": "Documentation generation agents and skills for code explanation and API docs",
       "version": "1.0.0",
       "category": "documentation",
