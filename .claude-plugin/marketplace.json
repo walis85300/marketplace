@@ -1,0 +1,41 @@
+{
+  "name": "demo-marketplace",
+  "owner": {
+    "name": "Claude Code Meetup",
+    "email": "meetup@example.com"
+  },
+  "metadata": {
+    "description": "A demo marketplace showcasing Claude Code plugin capabilities: skills, agents, hooks, and more.",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "code-review",
+      "source": "code-review",
+      "description": "Code review skills and agents for catching bugs, security issues, and style problems",
+      "version": "1.0.0",
+      "category": "code-quality",
+      "tags": ["review", "security", "quality"],
+      "keywords": ["code-review", "linting", "best-practices"]
+    },
+    {
+      "name": "git-toolkit",
+      "source": "git-toolkit",
+      "description": "Git workflow automation with conventional commits, branch naming, and pre-commit hooks",
+      "version": "1.0.0",
+      "category": "workflow",
+      "tags": ["git", "commits", "automation"],
+      "keywords": ["git", "conventional-commits", "hooks"]
+    },
+    {
+      "name": "doc-generator",
+      "source": "doc-generator",
+      "description": "Documentation generation agents and skills for code explanation and API docs",
+      "version": "1.0.0",
+      "category": "documentation",
+      "tags": ["docs", "documentation", "explanation"],
+      "keywords": ["documentation", "jsdoc", "readme"]
+    }
+  ]
+}

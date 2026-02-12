@@ -1,0 +1,9 @@
+{
+  "name": "doc-generator",
+  "description": "Documentation generation agents and skills for code explanation and API docs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claude Code Meetup"
+  },
+  "keywords": ["documentation", "jsdoc", "readme"]
+}

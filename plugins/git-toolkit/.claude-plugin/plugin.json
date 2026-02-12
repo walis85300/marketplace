@@ -1,0 +1,9 @@
+{
+  "name": "git-toolkit",
+  "description": "Git workflow automation with conventional commits, branch naming, and pre-commit hooks",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claude Code Meetup"
+  },
+  "keywords": ["git", "conventional-commits", "automation"]
+}

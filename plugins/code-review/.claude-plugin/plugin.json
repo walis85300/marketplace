@@ -1,0 +1,9 @@
+{
+  "name": "code-review",
+  "description": "Code review skills and agents for catching bugs, security issues, and style problems",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claude Code Meetup"
+  },
+  "keywords": ["code-review", "security", "quality"]
+}
