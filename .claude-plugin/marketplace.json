@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "A demo marketplace showcasing Claude Code plugin capabilities: skills, agents, hooks, and more.",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
@@ -56,6 +56,15 @@
       "category": "productivity",
       "tags": ["ai-powered", "compound-engineering", "workflow-automation"],
       "keywords": ["compound-engineering", "code-review", "workflow-automation", "browser-automation"]
+    },
+    {
+      "name": "dynamo-expert",
+      "source": "./plugins/dynamo-expert",
+      "description": "DynamoDB single-table design pipeline: access patterns → table design → query interfaces. Three-step guided workflow for designing and documenting production-ready DynamoDB schemas.",
+      "version": "1.0.0",
+      "category": "database",
+      "tags": ["dynamodb", "aws", "database", "schema-design"],
+      "keywords": ["dynamodb", "single-table-design", "access-patterns", "nosql", "aws"]
     }
   ]
 }

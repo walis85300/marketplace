@@ -1,0 +1,5 @@
+{
+  "name": "dynamo-expert",
+  "description": "DynamoDB single-table design pipeline: access patterns → table design → query interfaces. Three-step guided workflow for designing and documenting DynamoDB schemas.",
+  "version": "1.0.0"
+}
