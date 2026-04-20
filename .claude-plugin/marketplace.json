@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "A demo marketplace showcasing Claude Code plugin capabilities: skills, agents, hooks, and more.",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
@@ -65,6 +65,15 @@
       "category": "database",
       "tags": ["dynamodb", "aws", "database", "schema-design"],
       "keywords": ["dynamodb", "single-table-design", "access-patterns", "nosql", "aws"]
+    },
+    {
+      "name": "session-tools",
+      "source": "./plugins/session-tools",
+      "description": "Session and context management tools — smarter compaction, context preservation, and long-session survival",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["compact", "context", "session-management"],
+      "keywords": ["compact", "context", "session-management", "productivity"]
     }
   ]
 }

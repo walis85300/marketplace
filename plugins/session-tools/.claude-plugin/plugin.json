@@ -1,0 +1,9 @@
+{
+  "name": "session-tools",
+  "description": "Session and context management tools for Claude Code — smarter compaction, context preservation, and long-session survival",
+  "version": "1.0.0",
+  "author": {
+    "name": "Eduardo Alvarez"
+  },
+  "keywords": ["compact", "context", "session-management", "productivity"]
+}
